@@ -1,3 +1,8 @@
+/**
+ * @author : AlexV
+ * @since : 04.01.2022, вт
+ **/
+
 package src.main.java;
 
 import java.io.IOException;
