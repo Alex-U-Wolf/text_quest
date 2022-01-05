@@ -1,0 +1,16 @@
+{"scenes": [
+  {"ID": "01", "Type":  "Location", "Text": "Something, somewhere\n black \n brown \n testing new line and now \t tabs", "Options": [
+    {"Option": "1", "Text": "Go to the forest", "Action": "02"},
+    {"Option": "2", "Text": "Go along the sea shore", "Action": "03"},
+    {"Option": "3", "Text": "Look around", "Action": "80"},
+    {"Option": "4", "Text": "Check inventory", "Action": "81"},
+    {"Option": "5", "Text": "Check map", "Action": "82"}
+  ]},
+  {"ID": "02", "Type":  "Location", "Text": "Forest Something, somewhere\n black \n brown \n testing new line and now \t tabs", "Options": [
+    {"Option": "1", "Text": "Go back to the seashore", "Action": "01"},
+    {"Option": "2", "Text": "Go along the sea shore", "Action": "02"},
+    {"Option": "3", "Text": "Look around", "Action": "80"},
+    {"Option": "4", "Text": "Check inventory", "Action": "81"},
+    {"Option": "5", "Text": "Check map", "Action": "82"}
+  ]}
+]}

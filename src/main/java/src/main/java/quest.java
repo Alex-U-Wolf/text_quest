@@ -7,7 +7,7 @@
  *Quest runs orchestrator which:
  * 1. Initialize scenes list (data loaded into the list)
  * 2. initialize scene and print text
- * 3. Repeat 2 in the loop tille the end of the game.
+ * 3. Repeat 2 in the loop title the end of the game.
 **/
 
 
@@ -21,7 +21,8 @@ import java.io.InputStreamReader;
 public class quest {
 
     public static void main(String[] args) throws IOException {
-        guess_game gg = new guess_game();
-        gg.guess();
+        orchestrator orch = new orchestrator();
+        orch.initialize();
+        orch.start();
     }
 }
