@@ -23,18 +23,11 @@ public class orchestrator {
         logger.debug("Starting. Setting location to 01");
 
         scene sc = scene.getInstance();
-        sc.testprint();
-        sc.load(currentScene);
-        sc.print_test_scene();
-        sc.load("02");
-        sc.print_test_scene();
-
-        while (!currentScene.equals("6")){
+        while (!currentScene.equals("06")){
             sc.load(currentScene);
             sc.showScene();
             currentScene = sc.readActions();
         }
-
+        System.out.println("You light a small fire, eat few fruits, grab few more for tomorrow and now can take a rest, while new locations to be created.");
     }
-
 }

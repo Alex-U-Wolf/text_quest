@@ -1,16 +1,21 @@
 {"scenes": [
-  {"ID": "01", "Type":  "Location", "Text": "Something, somewhere\n black \n brown \n testing new line and now \t tabs", "Options": [
+  {"ID": "01", "Type":  "Location", "Text": "\n01 SEASHORE.\nYou are on a sunny seashore now. Ocean behind you, forest in front of you and beaches goes both sides to the left and right.\nThe cry of the seagulls surrounds you and the hot sand warm your bare feet.", "Options": [
     {"Option": "1", "Text": "Go to the forest", "Action": "02"},
-    {"Option": "2", "Text": "Go along the sea shore", "Action": "03"},
-    {"Option": "3", "Text": "Look around", "Action": "80"},
-    {"Option": "4", "Text": "Check inventory", "Action": "81"},
-    {"Option": "5", "Text": "Check map", "Action": "82"}
+    {"Option": "2", "Text": "Go along the sea shore to the east", "Action": "03"},
+    {"Option": "3", "Text": "Go along the sea shore to the west", "Action": "04"}
   ]},
-  {"ID": "02", "Type":  "Location", "Text": "Forest Something, somewhere\n black \n brown \n testing new line and now \t tabs", "Options": [
+  {"ID": "02", "Type":  "Location", "Text": "\n02 FOREST.\nHot tropical forest surrounds you. It breathe with symphony accompanied by insects, birds, wind and trees.\nUnfortunatelly forest is too dense to go forward.", "Options": [
+    {"Option": "1", "Text": "Go back to the seashore", "Action": "01"}
+  ]},
+  {"ID": "03", "Type":  "Location", "Text": "\n03 EAST SHORE.\nTurning the next seashore curve you sadly realize that it is a dead end. Groups of friendly crocodiles blocks your way and have a high hopes in coming launch.", "Options": [
+    {"Option": "1", "Text": "Go back to the seashore", "Action": "01"}
+  ]},
+  {"ID": "04", "Type":  "Location", "Text": "\n04 CLIFF ON THE SHORE.\nGoing west you shortly face high cliff, which from one side blocks your way, but from other - streatched far into the island center and give an option to don't get lost in the forest if you follow cliff side.", "Options": [
     {"Option": "1", "Text": "Go back to the seashore", "Action": "01"},
-    {"Option": "2", "Text": "Go along the sea shore", "Action": "02"},
-    {"Option": "3", "Text": "Look around", "Action": "80"},
-    {"Option": "4", "Text": "Check inventory", "Action": "81"},
-    {"Option": "5", "Text": "Check map", "Action": "82"}
+    {"Option": "2", "Text": "Go along the cliff to the island center.", "Action": "05"}
+  ]},
+  {"ID": "05", "Type":  "Location", "Text": "\n05 WATERFALL.\nNot that far in forest you find clearing in the woods. This small spot surrounded by waterfall and some fruits trees next to it.\nSmall cave can be a good shelter in your desperate situation.", "Options": [
+    {"Option": "1", "Text": "Go back to the cliff on the sea shore.", "Action": "04"},
+    {"Option": "2", "Text": "Deploy the camp in the cave and refresh yourself with fresh fruits.", "Action": "06"}
   ]}
 ]}
